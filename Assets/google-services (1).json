@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402287117782",
+    "project_id": "unitymodule-ab4cb",
+    "storage_bucket": "unitymodule-ab4cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402287117782:android:ccc0a6dac899d663fb5077",
+        "android_client_info": {
+          "package_name": "com.neil.buttoncanvas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402287117782-c6lfr858vm9bhqsa2r1qc95tbf2q6n32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9_2UIuLcLVSE9mcHylqlCona3s2TQOBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402287117782-c6lfr858vm9bhqsa2r1qc95tbf2q6n32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
