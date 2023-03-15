@@ -6,7 +6,7 @@ using System;
 
 public class ButtonScript : MonoBehaviour
 {
-	private string buttonColor = "red";
+	private string buttonColor = "green";
 
 	private void Start()
 	{
@@ -30,13 +30,12 @@ public class ButtonScript : MonoBehaviour
 		remoteConfig.ActivateAsync();
 
 		buttonColor = FirebaseRemoteConfig.DefaultInstance.GetValue("button_color").StringValue;
-		Debug.Log("Button color: " + buttonColor);
-
-		if (buttonColor == "red")
+		
+		if (buttonColor == "\"red\"")
 		{
 			GetComponent<UnityEngine.UI.Button>().image.color = Color.red;
 		}
-		else if (buttonColor == "blue")
+		else if (buttonColor == "\"blue\"")
 		{
 			GetComponent<UnityEngine.UI.Button>().image.color = Color.blue;
 		}
